@@ -1,0 +1,70 @@
+@media screen and (max-width: 785px) {
+    .main_header_1 {
+        font-size: 8vw;
+    }
+    .social_media_links {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    body {
+        text-align: center;
+    }
+    .main_header_1 {
+        font-size: 12vw;
+    }
+    .main_header_2 {
+        font-size: 4vw;
+    }
+    .social_media_links {
+        font-size: 5vw;
+    }
+    .center_main_page {
+        left: 50%;
+    }
+    .center_main_page p {
+        font-size: 7.5vw;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1390px) {
+    .main_header_2 {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .logo {
+        height: 25px;
+        width: 200px;
+        position: absolute;
+        left: 15px;
+    }
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        height: 45px;
+        width: 200px;
+        position: absolute;
+        left: 15px;
+    }
+    .nav__links,
+    .cta {
+        display: none;
+        z-index: 1;
+    }
+    .menu {
+        display: initial;
+    }
+}
